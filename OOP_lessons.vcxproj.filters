@@ -4,6 +4,27 @@
     <Filter Include="Internal">
       <UniqueIdentifier>{ad623103-4853-407f-b4e5-adf7a174c85d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{0dde6bce-2e9b-4acf-a98e-07760deaf3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domaine">
+      <UniqueIdentifier>{56bac0dd-23d6-4979-98aa-e579b77b1473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation">
+      <UniqueIdentifier>{d1d91f5b-19fa-4029-bb66-b4307dacdfdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domaine\model">
+      <UniqueIdentifier>{81cdc224-a902-4cde-a061-429289a74339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domaine\usecase">
+      <UniqueIdentifier>{110da1af-16d5-456f-875d-d7167d6ef42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\screens">
+      <UniqueIdentifier>{7c84e4f4-30b0-40ba-9f21-5b017da55d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\screens\home">
+      <UniqueIdentifier>{3dc3bd92-4bca-4b3f-85ac-4f8e0f04dabe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="application.cpp">
