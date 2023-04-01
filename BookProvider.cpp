@@ -13,16 +13,13 @@ bool LibrariProvider::addBook(Book* new_book = nullptr)
 {
 	if (new_book == nullptr)
 	{
-		cout << "Enter Title: ";
-		string title;
-		getline(cin, title);
-		cout << "Enter Author: ";
+				cout << "Enter Author: ";
 		string author;
 		getline(cin, author);
 		cout << "Enter Year: ";
 		int year;
 		cin >> year;
-		new_book = new Book(title, author, year);
+		new_book = new Book(author, year);
 	}
 	books = new_book;
 	return true;
