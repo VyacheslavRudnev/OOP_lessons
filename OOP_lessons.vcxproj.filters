@@ -30,5 +30,22 @@
     <ClCompile Include="application.cpp">
       <Filter>Internal</Filter>
     </ClCompile>
+    <ClCompile Include="Book.cpp">
+      <Filter>domaine\model</Filter>
+    </ClCompile>
+    <ClCompile Include="BookProvider.cpp">
+      <Filter>domaine\usecase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="library.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>domaine\model</Filter>
+    </ClInclude>
+    <ClInclude Include="BookProvider.h">
+      <Filter>domaine\usecase</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
