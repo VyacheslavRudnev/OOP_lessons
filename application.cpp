@@ -3,6 +3,7 @@
 
 
 
+
 int main()
 {
 	Book a, b("Rudnev", 2022);
