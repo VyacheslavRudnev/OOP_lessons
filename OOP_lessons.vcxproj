@@ -127,7 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="application.cpp" />
+    <ClCompile Include="domain\models\book\Book.cpp" />
+    <ClCompile Include="domain\models\book_library\book_library.cpp" />
+    <ClCompile Include="internal\application.cpp" />
+    <ClCompile Include="presentation\screens\home\home.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="domain\models\book\Book.h" />
+    <ClInclude Include="domain\models\book_library\book_library.h" />
+    <ClInclude Include="domain\providers\library_provider\library_provider.h" />
+    <ClInclude Include="internal\library.h" />
+    <ClInclude Include="presentation\dialogs\consol_dialogs.h" />
+    <ClInclude Include="presentation\screens\screens.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

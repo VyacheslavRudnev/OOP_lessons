@@ -4,10 +4,78 @@
     <Filter Include="Internal">
       <UniqueIdentifier>{ad623103-4853-407f-b4e5-adf7a174c85d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{b4d4c654-8df6-4586-bd90-c922365150d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{5f8f34ce-b8d0-499e-b997-1f0c4c00bee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation">
+      <UniqueIdentifier>{9b915f68-a9aa-4e20-b8f9-0f83b6db7367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\screens">
+      <UniqueIdentifier>{89487d71-331c-48e4-aca9-3d6b2de5be25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\models">
+      <UniqueIdentifier>{2c75d37b-68e1-4f81-8de8-70ab341fd7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\providers">
+      <UniqueIdentifier>{7c51ddc3-ae4f-4894-95f9-7ca779fe45f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\files">
+      <UniqueIdentifier>{e750e27c-1f1b-4db2-81aa-483aa9dd30d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\screens\home">
+      <UniqueIdentifier>{6417624f-bf68-48a7-8d8f-005e7305e8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\interactor">
+      <UniqueIdentifier>{dd312fb6-bb0e-4e85-a5f7-0be699719942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\models\book">
+      <UniqueIdentifier>{4bc288e2-f7a6-4bf7-a968-0163c15f600f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\models\book_library">
+      <UniqueIdentifier>{f35e4267-5d47-4084-8c41-b8a9de20de4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\providers\library_provider">
+      <UniqueIdentifier>{4db189e6-01eb-4fd0-9753-379e9930402c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation\dialogs">
+      <UniqueIdentifier>{79abdced-196d-45bc-8c9e-d00ef207d949}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="application.cpp">
+    <ClCompile Include="domain\models\book\Book.cpp">
+      <Filter>domain\models\book</Filter>
+    </ClCompile>
+    <ClCompile Include="domain\models\book_library\book_library.cpp">
+      <Filter>domain\models\book_library</Filter>
+    </ClCompile>
+    <ClCompile Include="presentation\screens\home\home.cpp">
+      <Filter>presentation\screens\home</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\application.cpp">
       <Filter>Internal</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="internal\library.h">
+      <Filter>Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="domain\models\book\Book.h">
+      <Filter>domain\models\book</Filter>
+    </ClInclude>
+    <ClInclude Include="domain\models\book_library\book_library.h">
+      <Filter>domain\models\book_library</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\screens\screens.h">
+      <Filter>presentation\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="domain\providers\library_provider\library_provider.h">
+      <Filter>domain\providers\library_provider</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\dialogs\consol_dialogs.h">
+      <Filter>presentation\dialogs</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
